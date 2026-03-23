@@ -73,7 +73,7 @@ export const projects: Project[] = [
     description: 'Full-stack intelligent helpdesk platform powered by Gemini LLM and agentic reasoning. Features JWT-secured multi-role auth, ticket auto-classification, and real-time AI-generated resolutions via a MERN + Python microservice architecture.',
     tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Python', 'Gemini LLM', 'JWT', 'FastAPI'],
     category: ['all', 'ai-ml', 'full-stack'],
-    github: 'https://github.com/tlokeshkumar1',
+    github: 'https://github.com/tlokeshkumar1/Smart-Helpdesk-with-Agentic',
     featured: true,
   },
   {
@@ -82,7 +82,7 @@ export const projects: Project[] = [
     description: 'Autonomous AI agent that reads, summarises, and drafts contextual replies to emails. Integrates with Google Calendar and Meet APIs to schedule follow-ups automatically using FastAPI + LLM backbone.',
     tech: ['FastAPI', 'LLM', 'Google Calendar API', 'Google Meet API', 'Python', 'OAuth2'],
     category: ['all', 'ai-ml', 'backend'],
-    github: 'https://github.com/tlokeshkumar1',
+    github: 'https://github.com/tlokeshkumar1/Email-Replier-Agent',
     featured: true,
   },
   {
@@ -91,7 +91,7 @@ export const projects: Project[] = [
     description: 'Production RAG pipeline combining Pinecone vector store with Gemini for context-aware Q&A over custom documents. React frontend with streaming responses and source attribution.',
     tech: ['React', 'Pinecone', 'Gemini', 'FastAPI', 'Python', 'LangChain', 'FAISS'],
     category: ['all', 'ai-ml', 'full-stack'],
-    github: 'https://github.com/tlokeshkumar1',
+    github: 'https://github.com/tlokeshkumar1/rag-assistant',
     featured: true,
   },
   {
@@ -100,7 +100,7 @@ export const projects: Project[] = [
     description: 'Conversational AI companion with persistent memory via MongoDB, Gmail API integration for inbox-aware context, and a React/TypeScript frontend. Powered by LangChain orchestration over FastAPI.',
     tech: ['React', 'TypeScript', 'FastAPI', 'LangChain', 'MongoDB', 'Gmail API', 'Python'],
     category: ['all', 'ai-ml', 'full-stack'],
-    github: 'https://github.com/tlokeshkumar1',
+    github: 'https://github.com/tlokeshkumar1/AI-Companion',
     featured: true,
   },
   {
@@ -109,7 +109,7 @@ export const projects: Project[] = [
     description: 'LLM-powered ticket management system built with Flask and MongoDB. Automatically categorises, prioritises, and suggests resolutions for incoming support tickets.',
     tech: ['Flask', 'MongoDB', 'Python', 'LLM', 'REST API'],
     category: ['all', 'ai-ml', 'backend'],
-    github: 'https://github.com/tlokeshkumar1',
+    github: 'https://github.com/tlokeshkumar1/Smart-Ticket-Hub',
     featured: false,
   },
   {
@@ -118,7 +118,7 @@ export const projects: Project[] = [
     description: 'End-to-end ML pipeline predicting customer churn with ensemble methods (XGBoost, Random Forest). Includes EDA, feature engineering, and a Flask-powered prediction API.',
     tech: ['Python', 'Scikit-learn', 'XGBoost', 'Flask', 'Pandas', 'NumPy'],
     category: ['all', 'ai-ml'],
-    github: 'https://github.com/tlokeshkumar1',
+    github: 'https://github.com/tlokeshkumar1/Customer-CHURN-Prediction',
     featured: false,
   },
   {
@@ -127,7 +127,7 @@ export const projects: Project[] = [
     description: 'Deep learning system combining CNN + LSTM + RNN models for URL-based phishing detection. Deployed via Flask with a REST API achieving >95% classification accuracy.',
     tech: ['Python', 'TensorFlow', 'CNN', 'LSTM', 'RNN', 'Flask', 'Scikit-learn'],
     category: ['all', 'ai-ml', 'backend'],
-    github: 'https://github.com/tlokeshkumar1',
+    github: 'https://github.com/anilkumar1306/ML-Powered-Threat-Detection-System',
     featured: false,
   },
   {
@@ -147,7 +147,7 @@ export const experience = [
     company: 'Bluestock Fintech',
     role: 'Software Development Engineer Intern',
     type: 'Remote',
-    period: 'Aug 2024 – Sep 2024',
+    period: 'Aug 2024 – Oct 2024',
     points: [
       'Developed a full-stack IPO web application using React.js and Django for real-time share trading.',
       'Designed an intuitive, responsive UI for transaction management, improving UX metrics significantly.',
