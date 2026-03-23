@@ -99,18 +99,19 @@ export default function Projects() {
               }`}
               style={{ transitionDelay: `${i * 80}ms` }}
             >
-              {/* Featured badge */}
-              {project.featured && (
-                <span className="absolute top-4 right-4 font-mono text-[0.62rem] text-teal border border-teal/30 rounded px-2 py-0.5 uppercase tracking-wider bg-teal/5">
-                  Featured
-                </span>
-              )}
-
               {/* Header */}
               <div className="flex items-start justify-between gap-4">
                 <div>
-                  <div className="text-teal/40 font-mono text-xs mb-1">
-                    {String(i + 1).padStart(2, '0')}.
+                  <div className="flex items-center gap-3 mb-2">
+                    <span className="text-teal/40 font-mono text-xs">
+                      {String(i + 1).padStart(2, '0')}.
+                    </span>
+                    {/* Featured badge */}
+                    {project.featured && (
+                      <span className="font-mono text-[0.62rem] text-teal border border-teal/30 rounded px-2 py-0.5 uppercase tracking-wider bg-teal/5">
+                        Featured
+                      </span>
+                    )}
                   </div>
                   <h3 className="font-head text-lg font-bold text-textpri leading-snug group-hover:text-teal transition-colors duration-200">
                     {project.title}
