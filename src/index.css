@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 :root {
-  --color-bg: 248 250 252;
-  --color-bg2: 241 245 249;
-  --color-bg3: 226 232 240;
+  --color-bg: 237 242 248;
+  --color-bg2: 226 232 240;
+  --color-bg3: 203 213 225;
   --color-navy: 30 64 175;
   --color-teal: 6 182 212;
   --color-teal2: 8 145 178;
-  --color-textpri: 15 23 42;
+  --color-textpri: 30 41 59;
   --color-textsec: 51 65 85;
   --color-textmut: 100 116 139;
 }
