@@ -30,6 +30,25 @@ export default function Projects() {
 
   const filtered = projects.filter(p => p.category.includes(active))
 
+  // Re-trigger reveal animations when changing tabs, 
+  // but only if the section has already been scrolled into view.
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if (ref.current) {
+        const filterContainer = ref.current.querySelector('.mb-10.reveal')
+        if (filterContainer && filterContainer.classList.contains('visible')) {
+          const newCards = ref.current.querySelectorAll('.glass-card.reveal:not(.visible)')
+          newCards.forEach((node, i) => {
+            setTimeout(() => {
+              node.classList.add('visible')
+            }, i * 80)
+          })
+        }
+      }
+    }, 50)
+    return () => clearTimeout(timer)
+  }, [active])
+
   useEffect(() => {
     fetch(
       `https://api.github.com/users/${personal.githubUsername}/repos?sort=stars&per_page=6`,
