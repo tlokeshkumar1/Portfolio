@@ -2,12 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --color-bg: 248 250 252;
+  --color-bg2: 241 245 249;
+  --color-bg3: 226 232 240;
+  --color-navy: 30 64 175;
+  --color-teal: 6 182 212;
+  --color-teal2: 8 145 178;
+  --color-textpri: 15 23 42;
+  --color-textsec: 51 65 85;
+  --color-textmut: 100 116 139;
+}
+
+html.dark {
+  --color-bg: 10 15 30;
+  --color-bg2: 15 23 42;
+  --color-bg3: 30 41 59;
+  --color-navy: 30 64 175;
+  --color-teal: 6 182 212;
+  --color-teal2: 8 145 178;
+  --color-textpri: 226 232 240;
+  --color-textsec: 148 163 184;
+  --color-textmut: 100 116 139;
+}
+
 /* ─── Custom base ─── */
 @layer base {
   html { scroll-behavior: smooth; }
 
   body {
     @apply bg-bg text-textpri font-body antialiased overflow-x-hidden;
+    transition: background-color 220ms ease, color 220ms ease;
   }
 
   ::-webkit-scrollbar { width: 4px; }

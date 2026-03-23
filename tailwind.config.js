@@ -5,15 +5,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        bg:       '#0A0F1E',
-        bg2:      '#0F172A',
-        bg3:      '#1E293B',
-        navy:     '#1E40AF',
-        teal:     '#06B6D4',
-        teal2:    '#0891B2',
-        textpri:  '#E2E8F0',
-        textsec:  '#94A3B8',
-        textmut:  '#64748B',
+        bg:       'rgb(var(--color-bg) / <alpha-value>)',
+        bg2:      'rgb(var(--color-bg2) / <alpha-value>)',
+        bg3:      'rgb(var(--color-bg3) / <alpha-value>)',
+        navy:     'rgb(var(--color-navy) / <alpha-value>)',
+        teal:     'rgb(var(--color-teal) / <alpha-value>)',
+        teal2:    'rgb(var(--color-teal2) / <alpha-value>)',
+        textpri:  'rgb(var(--color-textpri) / <alpha-value>)',
+        textsec:  'rgb(var(--color-textsec) / <alpha-value>)',
+        textmut:  'rgb(var(--color-textmut) / <alpha-value>)',
       },
       fontFamily: {
         head: ['Syne', 'sans-serif'],
